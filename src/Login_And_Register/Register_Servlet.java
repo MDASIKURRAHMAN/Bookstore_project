@@ -20,6 +20,7 @@ public class Register_Servlet extends HttpServlet {
         String email = request.getParameter("email");
         String phonenumber = request.getParameter("phone");
         String password = request.getParameter("password");
+        //sout("testing");
 
         try {
             Connection con = DBConnection.getConnection();
